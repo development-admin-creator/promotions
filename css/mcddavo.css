@@ -4,6 +4,10 @@
 .draft b{color:#fff}
 
 .games-wrap{padding-top:50px}
+.cat-filter{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:28px}
+.cat-btn{background:var(--panel);border:1px solid var(--borde);border-radius:999px;color:#aaa;cursor:pointer;font-family:'Hanken Grotesk',sans-serif;font-size:13px;font-weight:600;letter-spacing:.4px;padding:8px 20px;transition:.2s;text-transform:uppercase}
+.cat-btn:hover{border-color:var(--oro);color:var(--oro)}
+.cat-btn.active{background:var(--oro);border-color:var(--oro);color:#06120C}
 .game-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:16px;margin-top:36px}
 .juego{background:var(--panel);border:1px solid var(--borde);border-radius:14px;overflow:hidden;text-decoration:none;color:#fff;display:block;transition:.25s;position:relative}
 .juego:hover{border-color:var(--oro);transform:translateY(-4px)}

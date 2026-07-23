@@ -1,85 +1,427 @@
-
 <!DOCTYPE html>
 <html lang="es" style="background:#06120C">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LaifBet x MC Davo</title>
-<meta name="description" content="Bienvenido al universo MC Davo en LaifBet.">
-<link rel="preload" href="fonts/hanken-grotesk-400-800.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="fonts/saira-condensed-800.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="css/fonts.css">
-<link rel="stylesheet" href="css/base.css">
-<link rel="stylesheet" href="css/mcddavo.css">
-</head>
-<body>
-<nav class="topbar" id="topbar">
-  <a href="index.html" class="logo"><img src="images/logo.webp" alt="LaifBet"></a>
-  <div class="main-nav">
-    <a href="index.html">Inicio</a>
-    <a href="loyalty-program.html">Programa de Lealtad</a>
-    <a href="mcddavo.html" class="active">MC Davo</a>
-  </div>
-  <button class="burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false">
-    <span></span><span></span><span></span>
-  </button>
-  <a class="nav-cta" href="#juegos">Entra al juego</a>
-</nav>
-<div class="mobile-nav" id="mobileNav">
-  <a href="index.html">Inicio</a>
-  <a href="loyalty-program.html">Programa de Lealtad</a>
-  <a href="mcddavo.html" class="active">MC Davo</a>
-  <a class="nav-cta" href="#juegos">Entra al juego</a>
-</div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LaifBet x MC Davo</title>
+    <meta name="description" content="Bienvenido al universo MC Davo en LaifBet." />
+    <link rel="preload" href="fonts/hanken-grotesk-400-800.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/saira-condensed-800.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/mcddavo.css" />
+  </head>
+  <body>
+    <nav class="topbar" id="topbar">
+      <a href="index.html" class="logo"><img src="images/logo.webp" alt="LaifBet" /></a>
+      <div class="main-nav">
+        <a href="index.html">Inicio</a>
+        <a href="loyalty-program.html">Programa de Lealtad</a>
+        <a href="mcddavo.html" class="active">MC Davo</a>
+      </div>
+      <button class="burger" id="burgerBtn" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="nav-cta" href="#juegos">Entra al juego</a>
+    </nav>
 
-<header class="hero">
-  <div class="kicker badge">LaifBet x MC Davo</div>
-  <h1>Bienvenido al<br><span class="gold">universo MC Davo</span></h1>
-  <p class="sub">La vibra, la actitud y el estilo que te representan. <b>Juega, gana y haz historia</b> como los grandes.</p>
-  <div class="ctas">
-    <a class="btn-gold btn-oro" href="#juegos">Explorar juegos</a>
-    <a class="btn-ghost" href="https://www.laifbet.mx" target="_blank" rel="noopener">Ir a LaifBet</a>
-  </div>
-  <p class="req">Bonos exclusivos &middot; Free spins diarios &middot; Torneos especiales</p>
-</header>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="index.html">Inicio</a>
+      <a href="loyalty-program.html">Programa de Lealtad</a>
+      <a href="mcddavo.html" class="active">MC Davo</a>
+      <a class="nav-cta" href="#juegos">Entra al juego</a>
+    </div>
 
-<section class="games-wrap" id="juegos">
-  <div class="sec-kicker">Los juegos que mandaste</div>
-  <h2>Universo MC Davo</h2>
-  <p class="sec-sub">Categorias por confirmar hasta tener el nombre real de cada juego.</p>
-  <div class="game-grid">
-    <a class="juego" href="https://www.laifbet.mx/game?id=39310&version=6.48.3-fc" data-game="ice-fishing" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/ice-fishing.jpg" alt="ice-fishing" width="480" height="800" loading="lazy"></div><div class="nm">Ice Fishing</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=38922&version=6.48.3-fc" data-game="fortune-zombie" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/fortune-zombie.jpg" alt="fortune-zombie" width="480" height="800" loading="lazy"></div><div class="nm">Fortune Zombie</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=5984&version=6.48.3-fc" data-game="space-cat" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/space-cat.jpg" alt="space-cat" width="480" height="800" loading="lazy"></div><div class="nm">Space Cat</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=32713&version=6.48.3-fc" data-game="no-fly-zone" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/no-fly-zone.jpg" alt="no-fly-zone" width="480" height="800" loading="lazy"></div><div class="nm">No Fly Zone</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=18270&version=6.48.3-fc" data-game="gods-fortune-fishing" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/gods-fortune-fishing.jpg" alt="gods-fortune-fishing" width="480" height="800" loading="lazy"></div><div class="nm">Gods Fortune Fishing</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=36002&version=6.48.3-fc" data-game="hockey-shootout" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/hockey-shootout.jpg" alt="hockey-shootout" width="480" height="800" loading="lazy"></div><div class="nm">Hockey Shootout</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=37866&version=6.48.3-fc" data-game="crash-touchdown" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/crash-touchdown.jpg" alt="crash-touchdown" width="480" height="800" loading="lazy"></div><div class="nm">Crash Touchdown</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=38706&version=6.48.3-fc" data-game="aviator-extra-bet" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/aviator-extra-bet.jpg" alt="aviator-extra-bet" width="480" height="800" loading="lazy"></div><div class="nm">Aviator Extra Bet</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=36102&version=6.48.3-fc" data-game="hercules-sports-legend" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/hercules-sports-legend.jpg" alt="hercules-sports-legend" width="480" height="800" loading="lazy"></div><div class="nm">Hercules: Sports Legend</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=34774&version=6.48.3-fc" data-game="crash-goal" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/crash-goal.jpg" alt="crash-goal" width="480" height="800" loading="lazy"></div><div class="nm">Crash Goal</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=2093&version=6.48.3-fc" data-game="gates-of-olympus" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/gates-of-olympus.jpg" alt="gates-of-olympus" width="480" height="800" loading="lazy"></div><div class="nm">Gates of Olympus™</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=34407&version=6.48.3-fc" data-game="sugar-rush-1000" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/sugar-rush-1000.jpg" alt="sugar-rush-1000" width="480" height="800" loading="lazy"></div><div class="nm">Sugar Rush 1000</div></a>
-    <a class="juego" href="https://www.laifbet.mx/game?id=5832&version=6.48.3-fc" data-game="dragons-way" target="_blank" rel="noopener"><div class="thumb has-img"><img src="images/davo/dragons-way.jpg" alt="dragons-way" width="480" height="800" loading="lazy"></div><div class="nm">Dragon's Way</div></a>
-  </div>
-</section>
+    <header class="hero">
+      <div class="kicker badge">LaifBet x MC Davo</div>
+      <h1>Bienvenido al<br /><span class="gold">universo MC Davo</span></h1>
+      <p class="sub">
+        La vibra, la actitud y el estilo que te representan.
+        <b>Juega, gana y haz historia</b> como los grandes.
+      </p>
+      <div class="ctas">
+        <a class="btn-gold btn-oro" href="#juegos">Explorar juegos</a>
+        <a class="btn-ghost" href="https://www.laifbet.mx" target="_blank" rel="noopener">Ir a LaifBet</a>
+      </div>
+      <p class="req">Bonos exclusivos &middot; Free spins diarios &middot; Torneos especiales</p>
+    </header>
 
-<section class="final" id="unete">
-  <h2>El juego <span class="gold-soft">es tuyo</span></h2>
-  <p class="sec-sub" style="margin:14px auto 0">Miles de jugadores. Cientos de juegos. Una experiencia creada para quienes juegan con actitud.</p>
-  <div class="ctas" style="margin-top:32px;display:flex;justify-content:center;gap:14px;flex-wrap:wrap">
-    <a class="btn-gold btn-oro" href="https://www.laifbet.mx" target="_blank" rel="noopener">Jugar ahora</a>
-    <a class="btn-ghost" href="#juegos">Ver juegos</a>
-  </div>
-</section>
+    <section class="games-wrap" id="juegos">
+      <div class="sec-kicker">Los juegos que mandaste</div>
+      <h2>Universo MC Davo</h2>
+      <p class="sec-sub">Slots, crash, pesca, mesa y arcade — 23 juegos seleccionados.</p>
+      <div class="cat-filter" id="catFilter">
+        <button class="cat-btn active" data-cat="todos">Todos</button>
+        <button class="cat-btn" data-cat="slot">Slots</button>
+        <button class="cat-btn" data-cat="crash">Crash</button>
+        <button class="cat-btn" data-cat="pesca">Pesca</button>
+        <button class="cat-btn" data-cat="mesa">Mesa</button>
+        <button class="cat-btn" data-cat="arcade">Arcade</button>
+      </div>
+      <div class="game-grid" id="gameGrid">
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=34716&version=6.49.2-fckol.1"
+          data-game="anubis"
+          data-category="slot"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/anubis.jpg" alt="anubis" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Anubis</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=2138&version=6.49.2-fckol.1"
+          data-game="buffalo-king"
+          data-category="slot"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/buffalo-king.jpg" alt="buffalo-king" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Buffalo King</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=38706&version=6.49.2-fckol.1"
+          data-game="aviator"
+          data-category="crash"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/aviator.jpg" alt="aviator" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Aviator</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=39237&version=6.49.2-fckol.1"
+          data-game="plinko"
+          data-category="arcade"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/plinko.jpg" alt="plinko" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Plinko</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=33504&version=6.49.2-fckol.1"
+          data-game="ocean-king"
+          data-category="pesca"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/ocean-king.jpg" alt="ocean-king" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Ocean King</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=7415&version=6.49.2-fckol.1"
+          data-game="maya-gold-crazy"
+          data-category="slot"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/maya-gold-crazy.jpg" alt="maya-gold-crazy" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Maya Gold Crazy</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=2083&version=6.49.2-fckol.1"
+          data-game="sweet-bonanza"
+          data-category="slot"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/sweet-bonanza.jpg" alt="sweet-bonanza" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Sweet Bonanza</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=2093&version=6.49.2-fckol.1"
+          data-game="gates-of-olympus"
+          data-category="slot"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img
+              src="images/davo/gates-of-olympus.jpg"
+              alt="gates-of-olympus"
+              width="480"
+              height="800"
+              loading="lazy"
+            />
+          </div>
+          <div class="nm">Gates of Olympus</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=34219&version=6.49.2-fckol.1"
+          data-game="sugar-rush"
+          data-category="slot"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/sugar-rush.jpg" alt="sugar-rush" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Sugar Rush</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=5854&version=6.49.2-fckol.1"
+          data-game="fruit-party"
+          data-category="slot"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/fruit-party.jpg" alt="fruit-party" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Fruit Party</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=32971&version=6.49.2-fckol.1"
+          data-game="blackjack"
+          data-category="mesa"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/blackjack.jpg" alt="blackjack" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Blackjack</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=13817&version=6.49.2-fckol.1"
+          data-game="ruleta-en-vivo"
+          data-category="mesa"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/ruleta-en-vivo.jpg" alt="ruleta-en-vivo" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Ruleta en vivo</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=39310&version=6.49.2-fckol.1"
+          data-game="ice-fishing"
+          data-category="pesca"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/ice-fishing.jpg" alt="ice-fishing" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Ice Fishing</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=38922&version=6.49.2-fckol.1"
+          data-game="fortune-zombie"
+          data-category="pesca"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/fortune-zombie.jpg" alt="fortune-zombie" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Fortune Zombie</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=5984&version=6.49.2-fckol.1"
+          data-game="space-cat"
+          data-category="arcade"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/space-cat.jpg" alt="space-cat" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Space Cat</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=32713&version=6.49.2-fckol.1"
+          data-game="no-fly-zone"
+          data-category="arcade"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/no-fly-zone.jpg" alt="no-fly-zone" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">No Fly Zone</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=18270&version=6.49.2-fckol.1"
+          data-game="gods-fortune-fishing"
+          data-category="pesca"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img
+              src="images/davo/gods-fortune-fishing.jpg"
+              alt="gods-fortune-fishing"
+              width="480"
+              height="800"
+              loading="lazy"
+            />
+          </div>
+          <div class="nm">Gods Fortune Fishing</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=36002&version=6.49.2-fckol.1"
+          data-game="hockey-shootout"
+          data-category="arcade"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/hockey-shootout.jpg" alt="hockey-shootout" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Hockey Shootout</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=37866&version=6.49.2-fckol.1"
+          data-game="crash-touchdown"
+          data-category="crash"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/crash-touchdown.jpg" alt="crash-touchdown" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Crash Touchdown</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=36102&version=6.49.2-fckol.1"
+          data-game="hercules-sports-legend"
+          data-category="crash"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img
+              src="images/davo/hercules-sports-legend.jpg"
+              alt="hercules-sports-legend"
+              width="480"
+              height="800"
+              loading="lazy"
+            />
+          </div>
+          <div class="nm">Hercules: Sports Legend</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=34774&version=6.49.2-fckol.1"
+          data-game="crash-goal"
+          data-category="crash"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/crash-goal.jpg" alt="crash-goal" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Crash Goal</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=34407&version=6.49.2-fckol.1"
+          data-game="sugar-rush-1000"
+          data-category="slot"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/sugar-rush-1000.jpg" alt="sugar-rush-1000" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Sugar Rush 1000</div>
+        </a>
+        <a
+          class="juego"
+          href="https://www.laifbet.mx/game?id=5832&version=6.49.2-fckol.1"
+          data-game="dragons-way"
+          data-category="slot"
+          target="_blank"
+          rel="noopener"
+        >
+          <div class="thumb has-img">
+            <img src="images/davo/dragons-way.jpg" alt="dragons-way" width="480" height="800" loading="lazy" />
+          </div>
+          <div class="nm">Dragon's Way</div>
+        </a>
+      </div>
+    </section>
 
-<footer>
-  <a href="index.html" class="logo"><img src="images/logo.webp" alt="LaifBet"></a>
-  <p class="legal">LaifBet x MC Davo. Los juegos, promociones y disponibilidad estan sujetos a Terminos y Condiciones vigentes en laifbet.mx. Operado bajo licencia MGA.</p>
-  <div class="rs">+18 &middot; JUEGA RESPONSABLE</div>
-</footer>
+    <section class="final" id="unete">
+      <h2>El juego <span class="gold-soft">es tuyo</span></h2>
+      <p class="sec-sub" style="margin: 14px auto 0">
+        Miles de jugadores. Cientos de juegos. Una experiencia creada para quienes juegan con actitud.
+      </p>
+      <div
+        class="ctas"
+        style="margin-top: 32px; display: flex; justify-content: center; gap: 14px; flex-wrap: wrap"
+      >
+        <a class="btn-gold btn-oro" href="https://www.laifbet.mx" target="_blank" rel="noopener">Jugar ahora</a>
+        <a class="btn-ghost" href="#juegos">Ver juegos</a>
+      </div>
+    </section>
 
-<script src="js/nav.js"></script>
-<div class="draft">&#9888; <b>BORRADOR INTERNO</b> — las 13 portadas y los 13 links estan confirmados e integrados. Quitar esta barra antes de publicar.</div>
-</body>
+    <footer>
+      <a href="index.html" class="logo"><img src="images/logo.webp" alt="LaifBet" /></a>
+      <p class="legal">
+        LaifBet x MC Davo. Los juegos, promociones y disponibilidad estan sujetos a Terminos y Condiciones vigentes en
+        laifbet.mx. Operado bajo licencia MGA.
+      </p>
+      <div class="rs">+18 &middot; JUEGA RESPONSABLE</div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script>
+      (function () {
+        var btns = document.querySelectorAll('#catFilter .cat-btn');
+        var cards = document.querySelectorAll('#gameGrid .juego');
+        btns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            btns.forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            var cat = btn.dataset.cat;
+            cards.forEach(function (card) {
+              card.style.display = (cat === 'todos' || card.dataset.category === cat) ? '' : 'none';
+            });
+          });
+        });
+      })();
+    </script>
+    <div class="draft">
+      &#9888; <b>BORRADOR INTERNO</b> — las 23 portadas y los 23 links estan confirmados e integrados. Quitar esta
+      barra antes de publicar.
+    </div>
+  </body>
 </html>
